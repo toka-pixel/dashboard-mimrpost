@@ -89,7 +89,9 @@ form label{
 .table{
     background: white;
     margin: 45px 0px;
+    overflow-x: scroll !important;
 }
+
 .table td{
     padding-top: 26px;
     padding-bottom: 26px;
