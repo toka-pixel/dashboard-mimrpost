@@ -1,0 +1,117 @@
+.content-wrapper .content-header-title{
+  font-size: 40px ;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 900 !important;
+}
+
+.breadcrumb{
+    font-size: 19px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 500;
+}
+
+.menu-title{
+    font-size: 19px;
+    font-family: 'Almarai', sans-serif;
+    font-weight: 500;
+}
+.menu-item{
+    font-size: 15px;
+    font-family: 'Almarai', sans-serif;
+ 
+}
+.choose-image{
+    margin-top: 35px;
+    padding: 11px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.header-navbar .navbar-header .navbar-brand .brand-logo {
+    width: 35px;
+}
+
+.brand-text{
+    font-family: 'Almarai', sans-serif
+}
+
+form label{
+    
+}
+
+
+/* ************** photo upload **************** */
+ output {
+    display: inline;
+}
+
+.thumbnail {
+
+    height: 100px;
+    margin: 10px;
+
+  
+  }
+
+  #clear {
+    display: none;
+  }
+ 
+  #removephoto{
+    position: absolute;
+    font-size: 21px;
+    color: red;
+    font-weight: 900;
+    /* left: 20px; */
+    top: -11px;
+    cursor: pointer;
+}
+#files{
+    margin-bottom: 32px;
+}
+
+/* ///////////////// video ////////////// */
+.video-thumbnail{
+    height: 100px;
+}
+
+/* /////////////////// svg /////////////// */
+.sv{
+    width:30px
+}
+.menu-title {
+  
+    padding-left: 11px;
+}
+
+
+/* ********************************** */
+.table{
+    background: white;
+    margin: 45px 0px;
+}
+.table td{
+    padding-top: 26px;
+    padding-bottom: 26px;
+    text-align: right;
+}
+
+/* ///////////// form  ///////*******/
+form label:nth-of-type(2) {
+    padding-top: 27px;
+}
+
+/* //////////////// register ///////////// */
+.register-name{
+    font-size: 19px;
+}
+
+/* ///////////////// recover password ////////////*/
+.recover-img{
+    width:19% !important
+}
+/**************** navbar ************* */
+.bg-info {
+    background-color: #ffc107!important;
+}
+  

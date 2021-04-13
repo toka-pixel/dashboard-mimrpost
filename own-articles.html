@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html class="loading" lang="en" data-textdirection="ltr">
+<!-- BEGIN: Head-->
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+
+
+    <title>Mimr-Post Dashboard</title>
+    <link rel="icon" href="app-assets/images/logo/MIMR Logo.svg" type="image" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap" rel="stylesheet">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap-extended.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css/components.min.css">
+    <!-- END: Theme CSS-->
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/vertical-menu.min.css">
+
+
+    <!-- END: Page CSS-->
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css/style.css">
+    <link rel='stylesheet' href='app-assets/css/all.min.css'>
+    <!-- END: Custom CSS-->
+
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+
+<body class="vertical-layout vertical-menu 2-columns   fixed-navbar" data-open="click" data-menu="vertical-menu"
+    data-col="2-columns">
+
+    <!-- BEGIN: Header-->
+    <nav
+        class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-light bg-info navbar-shadow">
+        <div class="navbar-wrapper">
+            <div class="navbar-header">
+                <ul class="nav navbar-nav flex-row">
+                    <li class="nav-item mobile-menu d-md-none mr-auto"><a
+                            class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><img class='sv'
+                                src='app-assets/images/logo/menu.svg'></a></li>
+                    <li class="nav-item"><a class="navbar-brand" href="index.html"><img class="brand-logo"
+                                alt="modern admin logo" src="app-assets/images/logo/logo.png">
+                            <h3 class="brand-text">News</h3>
+                        </a></li>
+                    <li class="nav-item d-md-none"><a class="nav-link open-navbar-container" data-toggle="collapse"
+                            data-target="#navbar-mobile"><img class='sv' src='app-assets/images/logo/more.svg'></a></li>
+                </ul>
+            </div>
+            <div class="navbar-container content">
+                <div class="collapse navbar-collapse" id="navbar-mobile">
+                    <ul class="nav navbar-nav mr-auto float-left">
+                        <li class="nav-item d-none d-md-block"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
+                                href="#"><img class='sv' src='app-assets/images/logo/menu.svg'></a></li>
+                        <li class="nav-item d-none d-lg-block"><a class="nav-link nav-link-expand" href="#"><i
+                                    class="ficon ft-maximize"></i></a></li>
+
+                        <li class="nav-item nav-search"><a class="nav-link nav-link-search" href="#"><img class='sv'
+                                    src='app-assets/images/logo/magnifying-glass.svg'></a>
+                            <div class="search-input">
+                                <input class="input" type="text" placeholder="Explore Modern..." tabindex="0"
+                                    data-search="template-list">
+                                <div class="search-input-close"><i class="ft-x"></i></div>
+                                <ul class="search-list"></ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav float-right">
+
+
+
+                        <li class="dropdown dropdown-user nav-item"><a
+                                class="dropdown-toggle nav-link dropdown-user-link" href="#"
+                                data-toggle="dropdown"><span class="mr-1 user-name text-bold-700">John Doe</span><span
+                                    class="avatar avatar-online"><img
+                                        src="app-assets/images/portrait/small/avatar-s-1.png"
+                                        alt="avatar"><i></i></span></a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href='#'>all articles</a>
+                                <a class="dropdown-item" href="login-with-bg-image.html"><i class="ft-power"></i>
+                                    Logout</a>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- END: Header-->
+
+
+    <!-- BEGIN: Main Menu-->
+
+    <div class="main-menu menu-fixed menu-light menu-accordion    menu-shadow " data-scroll-to-active="true">
+        <div class="main-menu-content">
+            <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                <li class="active"><a href="index.html"><img class='sv'
+                            src='app-assets/images/logo/two-houses.svg'><span class="menu-title"
+                            data-i18n="Dashboard Hospital">Dashboard News</span></a>
+                </li>
+                <!-- <li class=" navigation-header"><span data-i18n="Professional">Professional</span><i class="la la-ellipsis-h"
+            data-toggle="tooltip" data-placement="right" data-original-title="Professional"></i>
+        </li> -->
+                <li class=""><a href="#"><img class='sv' src='app-assets//images/logo/woman.svg'><span
+                            class="menu-title" data-i18n="Appointment">المرأه</span></a>
+                    <ul class="menu-content">
+                        <li class='active'><a class="menu-item" href="woman.html"><i></i><span>لايف كوتش</span></a>
+                        </li>
+                        <li><a class="menu-item" href="woman.html"><i></i><span>موضه</span></a>
+                        </li>
+                        <li><a class="menu-item" href="woman.html"><i></i><span>مطبخ واسره</span></a>
+                        </li>
+                        <li><a class="menu-item" href="woman.html"><i></i><span>تربي اطفال</span></a>
+                        </li>
+                        <li><a class="menu-item" href="woman.html"><i></i><span>مشكلات زوجيه</span></a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class=" nav-item"><a href="#"><img class='sv' src='app-assets/images/logo/running.svg'><span
+                            class="menu-title" data-i18n="Doctors">رياضه</span></a>
+
+                </li>
+                <li class=" nav-item"><a href="#"><img class='sv' src='app-assets/images/logo/hand.svg'><span
+                            class="menu-title" data-i18n="Patients">فن و
+                            ثقافه</span></a>
+
+                </li>
+                <li class=" nav-item"><a href="hospital-payment-reports.html"><img class='sv'
+                            src='app-assets/images/logo/coin-stack.svg'><span class="menu-title"
+                            data-i18n="Report">اقتصاد و عملات</span></a>
+                </li>
+
+                <li class=" nav-item"><a href="#"><img class='sv' src='app-assets/images/logo/atom.svg'><span
+                            class="menu-title" data-i18n="Invoice">علوم و تكنولوجيا</span></a>
+
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- END: Main Menu-->
+    <!-- BEGIN: Content-->
+    <div class="app-content content">
+        <div class="content-overlay"></div>
+        <div class="content-wrapper">
+            <div class="content-header row">
+                <div class="content-header-left col-md-6 col-12 mb-2">
+                    <h3 class="content-header-title">المرأه</h3>
+                    <div class="row breadcrumbs-top">
+                        <div class="breadcrumb-wrapper col-12">
+                            <ol class="breadcrumb">
+
+                                <li class="breadcrumb-item">لايف كوتش
+                                </li>
+
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="content-body">
+
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <table class="table">
+                            <thead class='thead-dark'>
+                                <tr>
+
+                                    <th scope="col">Title</th>
+                                    <th scope="col">Body</th>
+                                    <th scope="col">Edit</th>
+                                    <th scope="col">Show</th> 
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+                                    <td>أغنى صفقة تكميلية ممكنة</td>
+                                    <td> الذي حقق نجاحًا كبيرًا، وسيخرج الفيلمين ريان جونسون مع دانييل كريج الذي يعيد
+                                        تأدية دوره كمحقق فائق هو بينوا بلان. كتب جونسون، الذي كتب النص الأصلي، الجزأين
+                                        الجدد وينتج الأفلام مع شريكه رام بيرغمان. وقالت مصادر إن الصفقة ستبلغ قيمتها 450
+                                        مليون دولار، مما يجعلها واحدة من أكبر صفقات أفلام البث المباشر في التاريخ.
+
+                                        كان من المتوقع حدوث تكملة، لكن المزاد الأخير الذي تم الكشف عنه بين ثلاث شركات بث
+                                        – كانت آبل وأمازون هما الآخران – كان مفاجأة. كيف كان ذلك ممكنا؟ تم الحصول على
+                                        الأصل في صفقة فيلم واحد من قبل MRC، التي وزعت الفيلم من خلال Lionsgate. كلف
+                                        الفيلم الأول 40 مليون دولار وحقق إجماليًا عالميًا قدره 311 مليون دولار. يمتلك
+                                        جونسون وبرغمان، الحق في إجراء أغنى صفقة تكميلية ممكنة. الأمر يمنح Netflix
+                                        امتيازًا رائعًا لبدء سلسلة أفلام. سيبدأ تصوير الفيلم الثاني من السلسلة في 28
+                                        يونيو في اليونان. الصفقة رائعة بالنظر إلى أصول Knives Out. حدث ذلك لأن داني بويل
+                                        خرج من فيلم جيمس بوند، تاركًا كريج مع بعض التوقف. كان لدى جونسون، الذي أحب أعمال
+                                        أجاثا كريستي، واحدة من القصص المشابهة، وقد أعدها هو وبرغمان قبل أن يأتي كاري
+                                        جوجي فوكوناجا كمخرج 007 وكان على استعداد لتصوير أغنية No Time To Die، وهي أغنية
+                                        لكريج في دوره كعميل سري بريطاني.
+
+                                        كان فيلم Knives Out، مع طاقم الممثلين المميز والسيناريو المصمم بدقة، بمثابة نجاح
+                                        ممتع للجمهور تم إعداده بشكل مثالي لطرح احتمالات واسعة لمزيد من الألغاز. تمنح
+                                        الأفلام كريج سلسلة جديدة للانضمام إليها بينما يختتم مهمته المكونة من خمسة أفلام
+                                        جيمس بوند مع فيلم “لا وقت للموت”، والذي سيفتح في دور العرض هذا الخريف بعد العديد
+                                        من التأخيرات بسبب COVID-19. قال أحد المديرين التنفيذيين في أحد منافسي Netflix،
+                                        والمتمرس في مجال الامتياز، إن السعر اللافت للصفقة قد يشمل الملايين في التزامات
+                                        تسويقية لعرض الفيلم في جميع أنحاء العالم. وأشاروا أيضًا إلى أنه بالنسبة إلى
+                                        المواهب مثل كريج، يمكن أن تنمو الرواتب في الأجزاء الثانية والثالثة بشكل فلكي –
+                                        غالبًا ما تتفوق على ميزانيات الإنتاج بأكملها. حقق الممثل 20 مليون دولار في
+                                        التكملة الأخيرة في امتياز جيمس بوند.
+
+                                        أقرأ أيضًا: أجمل الأفلام التي تحدثت عن اضطراب تعدد الشخصيات
+
+                                    </td>
+                                    <td ><a href="edit.html" class='btn btn-outline-success'>Edit</a></td>
+                                    <td  ><a href='#' class="btn btn-outline-info">Show</a></td>
+                                   
+                                </tr>
+
+                                <tr>
+
+                                    <td>ريان جونسون مع دانييل كريج الذي يع</td>
+                                    <td> الذي حقق نجاحًا كبيرًا، وسيخرج الفيلمين ريان جونسون مع دانييل كريج الذي يعيد
+                                        تأدية دوره كمحقق فائق هو بينوا بلان. كتب جونسون، الذي كتب النص الأصلي، الجزأين
+                                        الجدد وينتج الأفلام مع شريكه رام بيرغمان. وقالت مصادر إن الصفقة ستبلغ قيمتها 450
+                                        مليون دولار، مما يجعلها واحدة من أكبر صفقات أفلام البث المباشر في التاريخ.
+
+                                        كان من المتوقع حدوث تكملة، لكن المزاد الأخير الذي تم الكشف عنه بين ثلاث شركات بث
+                                        – كانت آبل وأمازون هما الآخران – كان مفاجأة. كيف كان ذلك ممكنا؟ تم الحصول على
+                                        الأصل في صفقة فيلم واحد من قبل MRC، التي وزعت الفيلم من خلال Lionsgate. كلف
+                                        الفيلم الأول 40 مليون دولار وحقق إجماليًا عالميًا قدره 311 مليون دولار. يمتلك
+                                        جونسون وبرغمان، الحق في إجراء أغنى صفقة تكميلية ممكنة. الأمر يمنح Netflix
+                                        امتيازًا رائعًا لبدء سلسلة أفلام. سيبدأ تصوير الفيلم الثاني من السلسلة في 28
+                                        يونيو في اليونان. الصفقة رائعة بالنظر إلى أصول Knives Out. حدث ذلك لأن داني بويل
+                                        خرج من فيلم جيمس بوند، تاركًا كريج مع بعض التوقف. كان لدى جونسون، الذي أحب أعمال
+                                        أجاثا كريستي، واحدة من القصص المشابهة، وقد أعدها هو وبرغمان قبل أن يأتي كاري
+                                        جوجي فوكوناجا كمخرج 007 وكان على استعداد لتصوير أغنية No Time To Die، وهي أغنية
+                                        لكريج في دوره كعميل سري بريطاني.
+
+                                        كان فيلم Knives Out، مع طاقم الممثلين المميز والسيناريو المصمم بدقة، بمثابة نجاح
+                                        ممتع للجمهور تم إعداده بشكل مثالي لطرح احتمالات واسعة لمزيد من الألغاز. تمنح
+                                        الأفلام كريج سلسلة جديدة للانضمام إليها بينما يختتم مهمته المكونة من خمسة أفلام
+                                        جيمس بوند مع فيلم “لا وقت للموت”، والذي سيفتح في دور العرض هذا الخريف بعد العديد
+                                        من التأخيرات بسبب COVID-19. قال أحد المديرين التنفيذيين في أحد منافسي Netflix،
+                                        والمتمرس في مجال الامتياز، إن السعر اللافت للصفقة قد يشمل الملايين في التزامات
+                                        تسويقية لعرض الفيلم في جميع أنحاء العالم. وأشاروا أيضًا إلى أنه بالنسبة إلى
+                                        المواهب مثل كريج، يمكن أن تنمو الرواتب في الأجزاء الثانية والثالثة بشكل فلكي –
+                                        غالبًا ما تتفوق على ميزانيات الإنتاج بأكملها. حقق الممثل 20 مليون دولار في
+                                        التكملة الأخيرة في امتياز جيمس بوند.
+
+                                        أقرأ أيضًا: أجمل الأفلام التي تحدثت عن اضطراب تعدد الشخصيات
+
+                                    </td>
+                                    <td ><a href="edit.html" class='btn btn-outline-success'>Edit</a></td>
+                                    <td ><a href='#' class="btn btn-outline-info">Show</a></td>
+                                   
+                                </tr>
+
+                                <tr>
+
+                                    <td>تم الكشف عنه بين ثلاث شركات</td>
+                                    <td> الذي حقق نجاحًا كبيرًا، وسيخرج الفيلمين ريان جونسون مع دانييل كريج الذي يعيد
+                                        تأدية دوره كمحقق فائق هو بينوا بلان. كتب جونسون، الذي كتب النص الأصلي، الجزأين
+                                        الجدد وينتج الأفلام مع شريكه رام بيرغمان. وقالت مصادر إن الصفقة ستبلغ قيمتها 450
+                                        مليون دولار، مما يجعلها واحدة من أكبر صفقات أفلام البث المباشر في التاريخ.
+
+                                        كان من المتوقع حدوث تكملة، لكن المزاد الأخير الذي تم الكشف عنه بين ثلاث شركات بث
+                                        – كانت آبل وأمازون هما الآخران – كان مفاجأة. كيف كان ذلك ممكنا؟ تم الحصول على
+                                        الأصل في صفقة فيلم واحد من قبل MRC، التي وزعت الفيلم من خلال Lionsgate. كلف
+                                        الفيلم الأول 40 مليون دولار وحقق إجماليًا عالميًا قدره 311 مليون دولار. يمتلك
+                                        جونسون وبرغمان، الحق في إجراء أغنى صفقة تكميلية ممكنة. الأمر يمنح Netflix
+                                        امتيازًا رائعًا لبدء سلسلة أفلام. سيبدأ تصوير الفيلم الثاني من السلسلة في 28
+                                        يونيو في اليونان. الصفقة رائعة بالنظر إلى أصول Knives Out. حدث ذلك لأن داني بويل
+                                        خرج من فيلم جيمس بوند، تاركًا كريج مع بعض التوقف. كان لدى جونسون، الذي أحب أعمال
+                                        أجاثا كريستي، واحدة من القصص المشابهة، وقد أعدها هو وبرغمان قبل أن يأتي كاري
+                                        جوجي فوكوناجا كمخرج 007 وكان على استعداد لتصوير أغنية No Time To Die، وهي أغنية
+                                        لكريج في دوره كعميل سري بريطاني.
+
+                                        كان فيلم Knives Out، مع طاقم الممثلين المميز والسيناريو المصمم بدقة، بمثابة نجاح
+                                        ممتع للجمهور تم إعداده بشكل مثالي لطرح احتمالات واسعة لمزيد من الألغاز. تمنح
+                                        الأفلام كريج سلسلة جديدة للانضمام إليها بينما يختتم مهمته المكونة من خمسة أفلام
+                                        جيمس بوند مع فيلم “لا وقت للموت”، والذي سيفتح في دور العرض هذا الخريف بعد العديد
+                                        من التأخيرات بسبب COVID-19. قال أحد المديرين التنفيذيين في أحد منافسي Netflix،
+                                        والمتمرس في مجال الامتياز، إن السعر اللافت للصفقة قد يشمل الملايين في التزامات
+                                        تسويقية لعرض الفيلم في جميع أنحاء العالم. وأشاروا أيضًا إلى أنه بالنسبة إلى
+                                        المواهب مثل كريج، يمكن أن تنمو الرواتب في الأجزاء الثانية والثالثة بشكل فلكي –
+                                        غالبًا ما تتفوق على ميزانيات الإنتاج بأكملها. حقق الممثل 20 مليون دولار في
+                                        التكملة الأخيرة في امتياز جيمس بوند.
+
+                                        أقرأ أيضًا: أجمل الأفلام التي تحدثت عن اضطراب تعدد الشخصيات
+
+                                    </td>
+                                    <td ><a href="edit.html" class='btn btn-outline-success'>Edit</a></td>
+                                    <td ><a href='#' class="btn btn-outline-info">Show</a></td>
+                                   
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
+
+
+
+
+
+
+
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-light navbar-border navbar-shadow">
+        <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2"><span
+                class="float-md-left d-block d-md-inline-block">Copyright <a class="text-bold-800 grey darken-2"
+                    target="_blank"></a></span><span class="float-md-right d-none d-lg-block">Hand-crafted & Made with<i
+                    class="ft-heart pink"></i><span id="scroll-top"></span></span></p>
+    </footer>
+    <!-- END: Footer-->
+
+    <!-- BEGIN: Vendor JS-->
+    <script src="app-assets/vendors/js/vendors.min.js"></script>
+    <!-- BEGIN Vendor JS-->
+
+
+
+    <!-- BEGIN: Theme JS-->
+    <script src="app-assets/js/core/app-menu.min.js"></script>
+    <script src="app-assets/js/core/app.min.js"></script>
+
+
+    <!-- END: Theme JS-->
+
+
+    <script src='app-assets/js/ckeditor/ckeditor.js'></script>
+
+    <script src='app-assets/js/core/all.min.js'></script>
+
+    <script src='app-assets/js/core/custom.js'></script>
+
+    <script>
+
+        CKEDITOR.replace('editor1');
+    </script>
+
+</body>
+<!-- END: Body-->
+
+
+</html>
